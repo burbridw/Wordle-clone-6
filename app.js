@@ -103,7 +103,7 @@ let answerBox3 = answerInput.children[3]
 let answerBox4 = answerInput.children[4]
 let answerBox5 = answerInput.children[5]
 
-let allKeys = document.querySelectorAll(".keys")
+let allKeys = document.querySelectorAll(".key")
 allKeys.forEach( (x) => {
     x.addEventListener("click",function() {
         let letter = x.textContent

@@ -58,10 +58,9 @@ buildDictionary()
 start()
 
 function start() {
-    randomSelectSix = Math.floor( Math.random()*104 )
+    randomSelectSix = Math.floor( Math.random()*88 )
     word = sixLetterWords[randomSelectSix]
     answerArr = word.split("")
-    console.log(answerArr)
     answerCount = 0
     round = 0
     correctGuess = 0
